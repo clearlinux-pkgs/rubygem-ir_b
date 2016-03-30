@@ -4,24 +4,17 @@
 #
 Name     : rubygem-ir_b
 Version  : 1.5.0
-Release  : 5
+Release  : 6
 URL      : https://rubygems.org/downloads/ir_b-1.5.0.gem
 Source0  : https://rubygems.org/downloads/ir_b-1.5.0.gem
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : MIT
 BuildRequires : ruby
-BuildRequires : rubygem-activesupport
-BuildRequires : rubygem-i18n
-BuildRequires : rubygem-minitest
 BuildRequires : rubygem-rdoc
 BuildRequires : rubygem-rr
 BuildRequires : rubygem-shoulda
-BuildRequires : rubygem-shoulda-context
-BuildRequires : rubygem-shoulda-matchers
 BuildRequires : rubygem-test-unit
-BuildRequires : rubygem-thread_safe
-BuildRequires : rubygem-tzinfo
 
 %description
 ir_b
@@ -69,31 +62,22 @@ popd
 
 %files
 %defattr(-,root,root,-)
-/usr/lib64/ruby/gems/2.2.0/cache/ir_b-1.5.0.gem
-/usr/lib64/ruby/gems/2.2.0/doc/ir_b-1.5.0/ri/IRB/cdesc-IRB.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ir_b-1.5.0/ri/IRB/start_session-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ir_b-1.5.0/ri/IrB/%2d-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ir_b-1.5.0/ri/IrB/cdesc-IrB.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ir_b-1.5.0/ri/IrB/launch_method-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ir_b-1.5.0/ri/IrB/using-c.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ir_b-1.5.0/ri/Kernel/cdesc-Kernel.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ir_b-1.5.0/ri/Kernel/ir-i.ri
-/usr/lib64/ruby/gems/2.2.0/doc/ir_b-1.5.0/ri/cache.ri
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/.document
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/.gitignore
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/Gemfile
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/LICENSE
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/README.md
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/Rakefile
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/VERSION
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/examples/example1.rb
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/examples/example2.rb
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/examples/with_pry.rb
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/ir_b.gemspec
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/lib/ir_b.rb
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/lib/ir_b/pry-remote-auto.rb
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/lib/ir_b/pry-remote.rb
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/lib/ir_b/pry.rb
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/test/helper.rb
-/usr/lib64/ruby/gems/2.2.0/gems/ir_b-1.5.0/test/test_ir_b.rb
-/usr/lib64/ruby/gems/2.2.0/specifications/ir_b-1.5.0.gemspec
+/usr/lib64/ruby/gems/2.3.0/cache/ir_b-1.5.0.gem
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/.document
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/.gitignore
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/Gemfile
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/LICENSE
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/README.md
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/Rakefile
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/VERSION
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/examples/example1.rb
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/examples/example2.rb
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/examples/with_pry.rb
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/ir_b.gemspec
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/lib/ir_b.rb
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/lib/ir_b/pry-remote-auto.rb
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/lib/ir_b/pry-remote.rb
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/lib/ir_b/pry.rb
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/test/helper.rb
+/usr/lib64/ruby/gems/2.3.0/gems/ir_b-1.5.0/test/test_ir_b.rb
+/usr/lib64/ruby/gems/2.3.0/specifications/ir_b-1.5.0.gemspec
